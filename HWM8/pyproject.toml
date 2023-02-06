@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hwm8"
+version = "0.1.0"
+description = ""
+authors = ["LevytskyiS <levytskyi.sv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.3"
+mongoengine = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
